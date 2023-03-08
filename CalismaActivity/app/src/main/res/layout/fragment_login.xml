@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".view.LoginFragment">
+
+    <EditText
+        android:id="@+id/countryName"
+        android:layout_width="302dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/edittext"
+        android:hint="Ülke Adı"
+        android:paddingStart="5dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/uniAra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/uniAra"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="382dp"
+        android:background="@drawable/edittext"
+        android:text="Üniversiteleri Ara"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryName"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
